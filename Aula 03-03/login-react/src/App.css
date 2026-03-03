@@ -1,0 +1,54 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.logo{
+  padding-top: 20px;
+  height: 40px;
+  width: 140px;
+}
+
+.subtitulo{
+  color: rgb(62, 62, 62);
+  margin-bottom: 25px;
+  
+}
+
+.campo{
+  border-radius: 10px;
+  background-color: rgb(215, 215, 215);
+  border: 0px solid black;
+  padding: 10px;
+}
+.label{
+  color: grey;
+}
+
+.titulo{
+  margin-bottom: 0px;
+}
+.botao{
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  width: 170px;
+  margin-bottom: 10px;
+}
+
+.link{
+  text-decoration: none;
+  color: rgb(73, 73, 73);
+}
