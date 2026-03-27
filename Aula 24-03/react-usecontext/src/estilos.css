@@ -1,0 +1,9 @@
+.header-light{
+    background-color: rgb(233, 250, 181);
+    color: rgb(70, 70, 213);
+}
+
+.header-dark{
+    background-color: rgb(10, 2, 36);
+    color:rgb(70, 70, 213);
+}
