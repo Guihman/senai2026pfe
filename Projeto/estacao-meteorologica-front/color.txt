@@ -1,0 +1,4 @@
+Fundo= #141e30, #243b55;
+Cartão=#ffffff;
+Label=#333;
+Botao=#4facfe, #00c6ff usar linear gradient
