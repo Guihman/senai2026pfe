@@ -1,24 +1,21 @@
-import {Routes, Route} from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 
+//import das rotas
 import Login from '../pages/login';
-// import Registro from '../pages/registro';
-// import Dashboard from '../pages/dashboard';
-// import Cadastro from '../pages/cadastro';
-// import Relatório from '../pages/relatório';
-// import NotFound from '../pages/notFound';
+import Registro from '../pages/registro';
+import Dashboard from '../pages/dashboard';
+import Cadastro from '../pages/cadastro'
 
+// import Relatorio from '../pages/relatorio';
+// import NotFound from '../pages/notfound';
 
-
-
-export default function Rotas() {
-  return (
-    <Routes>
-      <Route path='/' element={<Login />} />
-      {/* <Route path='/' element={<Registro />} />
-      <Route path='/' element={<Dashboard />} />
-      <Route path='/' element={<Cadastro />} />
-      <Route path='/' element={<Relatório />} />
-      <Route path='/' element={<NotFound />} /> */}
-    </Routes>
-  )
+export default function Rotas(){
+    return(
+        <Routes>
+            <Route path='/' element={<Login />}/>
+            <Route path="/registro" element={<Registro />}/>
+            <Route path="/dashboard" element={<Dashboard />}/>
+            <Route path="/cadastro" element={<Cadastro />}/>
+        </Routes>
+    )
 }
